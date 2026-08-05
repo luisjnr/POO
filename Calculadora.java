@@ -8,7 +8,7 @@ public class Calculadora {
 		int opc = scan.nextInt();
 		return opc; 
 	}
-
+	
     public static void main(String[] args) {
 		int x, y;
 		Scanner scan = new Scanner(System.in);
