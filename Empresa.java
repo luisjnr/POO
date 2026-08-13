@@ -3,7 +3,7 @@ public class Empresa {
 	public static void printFun(Funcionario[] fun, int m){
 		if(m<0) return;
 		printFun(fun, (m-1));
-		System.out.println("Nome: " + fun[m].nome + ", Salário final: " + fun[m].salarioFinal());	
+		System.out.println("Nome: " + fun[m].nome + ", Salário final: " + fun[m].salarioFinal() + ".");	
 	}
 
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ public class Clinica {
 	public static void printPac(Paciente[] pac, int m){
 		if(m<0) return;
 		printPac(pac, (m-1));
-		System.out.println("Nome: " + pac[m].nome + " Sexo: " + pac[m].sexo + " IMC: " + pac[m].calcularIMC());
+		System.out.println("Nome: " + pac[m].nome + ", Sexo: " + pac[m].sexo + ", IMC: " + pac[m].calcularIMC() + ".");
 	}
 
     public static void main(String[] args) {
